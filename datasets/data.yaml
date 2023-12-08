@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Guns']
+
+roboflow:
+  workspace: ip-7hvjy
+  project: gun-ajydz
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ip-7hvjy/gun-ajydz/dataset/3
